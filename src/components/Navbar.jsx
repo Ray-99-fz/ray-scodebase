@@ -7,7 +7,7 @@ const Navbar = () => {
     const [nav, setNav] = useState(false)
 
   return (
-    <div className='w-full min-h-14 bg-white p-6 border-b-[1px] border-[#cc4c] shadow-2xl top-0 left-0 fixed z-'>
+    <div className='w-full min-h-14 bg-white p-6 border-b-[1px] border-[#cc4c] shadow-2xl top-0 left-0 fixed z-30'>
         <div className=' w-[90%] lg:w-[80%] m-auto flex items-center justify-between'>
             {/* Left */}
             <div className='flex items-center'>
